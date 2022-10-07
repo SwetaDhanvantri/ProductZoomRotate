@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Product Zoom effect</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.0-web/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <style>
+
+    
+</style>
+</head>
+    
+<body>
+  
+       
+  
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="image-popup" id="imagepopup">
+        <div class="popup-head d-flex justify-content-end p-2">
+            <button class="close" id="close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="d-flex justify-content-center pt-2 pb-1 rotate" >
+            <button id="rotate" onclick="rotateImage()">
+                <i class="fas rotate-icon fa-sync-alt"></i>
+            </button>
+         
+        </div>
+        <div class="row image-body" id="image-body">
+
+        <div class="col">
+            <div class="show" href="./images/invoice.jpg">
+              <img src="./images/invoice.jpg" id="show-img"  class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <div>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                   
+                    
+                    <th scope="col">Invoice Number</th>
+                    <th scope="col">Invoice Date</th>
+                  
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">21004</td>
+                    <td >23rd Oct 2021</td>
+                    
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Dealer Name</th>
+                    <th>Dealer Code</th>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">Nakul Singh</td>
+                    <td>NK-302</td>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Customer Name</th>
+                    <th>Customer Code</th>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">Gaurav</td>
+                    <td>GB-302</td>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Item</th>
+                    <th>Quantity</th>
+                   
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">FF3345F</td>
+                    <td>5</td>
+                   
+                    
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+
+ 
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  <script src="scripts/zoom-image.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+
+   <script src="./scripts/zoom.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.js"></script>
+    <script src="./assets/fontawesome-free-6.2.0-web/js/all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</html>
